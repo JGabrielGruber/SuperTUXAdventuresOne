@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="2018-06-gamePrototype.jnlp">
+  <information>
+    <title>2018-06-gamePrototype</title>
+    <vendor>gruber</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="2018-06-gamePrototype.jar" size="229825" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="2018-06-gamePrototype" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="app.App"  name="2018-06-gamePrototype" />
+  <update check="always"/>
+</jnlp>
